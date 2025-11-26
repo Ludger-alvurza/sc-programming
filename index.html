@@ -1,43 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ludgerdus</title>
+    <title>Portfolio – Programmer & Blockchain Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Leaflet CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+
+    <!-- Leaflet JavaScript -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
   </head>
+
   <body>
-    <h1>Ludgerdus Pati Hurit</h1>
-    <hr />
-    <h2>Tentang saya</h2>
-    <p>
-      Halo! Nama saya Ludgerdus Pati Hurit. Saya seorang pengembang web yang
-      bersemangat tentang teknologi dan inovasi. Saya suka belajar hal-hal baru
-      dan berbagi pengetahuan dengan orang lain.
-    </p>
-    <h2>Hal-hal yang saya sukai</h2>
-    <hr />
-    <ul>
-      <li>
-        Hobi saya termasuk membaca buku, bermain catur, dan menjelajahi alam.
-      </li>
-      <li>
-        Saya memiliki pengalaman dalam pengembangan front-end dan back-end.
-      </li>
-      <li>
-        Saya percaya bahwa kolaborasi adalah kunci untuk menciptakan solusi yang
-      </li>
-    </ul>
-    <hr />
-    <h2>Sosial Media:</h2>
-    <ol>
-      <li>
-        <a href="https://www.instagram.com/alvdis_26//insta">instagram</a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/ludgerdus-pati-hurit-331181266/"
-          >Linkedin</a
-        >
-      </li>
-    </ol>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <img src="assets/prau.webp" alt="Profile" class="profile-img" />
+        <h1>Ludgerdus Pati Hurit</h1>
+        <p>Fullstack Developer & Blockchain Specialist</p>
+
+        <!-- Contact Info Cards in Hero -->
+        <div class="hero-contact-cards">
+          <div class="hero-contact-item">
+            <div class="hero-contact-details">
+              <span class="hero-contact-label">Email</span>
+              <a href="mailto:rizki.dev@email.com" class="hero-contact-link"
+                >Ludgerdusl@email.com</a
+              >
+            </div>
+          </div>
+
+          <div class="hero-contact-item">
+            <div class="hero-contact-details">
+              <span class="hero-contact-label">Telepon</span>
+              <a href="tel:+6281234567890" class="hero-contact-link"
+                >+62 858-4916-5477</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+      <div class="container">
+        <h2>Tentang Saya</h2>
+        <div class="about-content">
+          <p>
+            Saya adalah software engineer berpengalaman dengan spesialisasi
+            dalam pengembangan blockchain dan aplikasi web modern. Passionate
+            dalam menciptakan solusi teknologi yang inovatif dan scalable,
+            terutama di ekosistem cryptocurrency dan smart contracts. Dengan
+            track record yang solid dalam menghandle berbagai proyek kompleks,
+            saya siap membawa tim Anda ke level berikutnya.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+      <div class="container">
+        <h2>Keahlian</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">⛓️</div>
+            <h3>Blockchain Development</h3>
+            <p>
+              Solidity, Web3.js, Truffle, Hardhat, DeFi Protocol, NFT
+              Development
+            </p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">💻</div>
+            <h3>Backend Development</h3>
+            <p>Node.js, Python, PostgreSQL, MongoDB, REST API, GraphQL</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">🎨</div>
+            <h3>Frontend Development</h3>
+            <p>React, Vue.js, TypeScript, Tailwind CSS, Web3 Integration</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="social">
+      <div class="container">
+        <div class="social-links">
+          <a href="https://github.com/Ludger-alvurza" target="_blank">GitHub</a>
+          <a
+            href="https://www.linkedin.com/in/ludgerdus-pati-hurit-331181266/"
+            target="_blank"
+            >LinkedIn</a
+          >
+          <a href="https://www.instagram.com/alvdis_26/" target="_blank"
+            >Instagram</a
+          >
+          <a href="https://x.com/AlvurzaLud55392" target="_blank">Twitter</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
   </body>
 </html>
