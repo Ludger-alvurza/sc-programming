@@ -3,18 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio – Programmer & Blockchain Developer</title>
+    <title>Portfolio | Programmer & Blockchain Developer</title>
     <link rel="stylesheet" href="styles.css" />
 
-    <!-- Leaflet CSS -->
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
       crossorigin=""
     />
-
-    <!-- Leaflet JavaScript -->
     <script
       src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
       integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
@@ -35,7 +32,7 @@
           <div class="hero-contact-item">
             <div class="hero-contact-details">
               <span class="hero-contact-label">Email</span>
-              <a href="mailto:rizki.dev@email.com" class="hero-contact-link"
+              <a href="mailto:Ludgerdusl@email.com" class="hero-contact-link"
                 >Ludgerdusl@email.com</a
               >
             </div>
@@ -44,10 +41,15 @@
           <div class="hero-contact-item">
             <div class="hero-contact-details">
               <span class="hero-contact-label">Telepon</span>
-              <a href="tel:+6281234567890" class="hero-contact-link"
+              <a href="tel:+6285849165477" class="hero-contact-link"
                 >+62 858-4916-5477</a
               >
             </div>
+          </div>
+
+          <div class="visitor-counter">
+            <div class="visitor-label">Pengunjung Situs:</div>
+            <div class="counter-number" id="visitorCount">0</div>
           </div>
         </div>
       </div>
@@ -116,7 +118,16 @@
       </div>
     </section>
 
-    <!-- JavaScript -->
+    <!-- Map Section -->
+    <section class="contact">
+      <div class="container">
+        <div class="map-section">
+          <h3>Lokasi Saya</h3>
+          <div id="map"></div>
+        </div>
+      </div>
+    </section>
+
     <script src="script.js"></script>
   </body>
 </html>
